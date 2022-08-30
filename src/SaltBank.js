@@ -1,5 +1,5 @@
 import React from "react";
-import Cable from "./Dropwire.js"; //"react-dropwire";
+//import Cable from "./Dropwire.js"; //"react-dropwire";
 
 class SaltBank extends React.Component {
   constructor(props) {
@@ -40,13 +40,13 @@ class SaltBank extends React.Component {
     };*/
     //https://www.quora.com/What-is-the-cause-of-inequality-in-competitive-markets/answer/Nick-Carducci
     //reverse amortization
-    let arrayOfnumbers = 0;
-    const scrollnum = () => {
+    /*let arrayOfnumbers = 0;
+  const scrollnum = () => {
       arrayOfnumbers = arrayOfnumbers + 1; //arrayOfnumbers[arrayOfnumbers.length - 1] + 1;
       //arrayOfnumbers.push(num);
       //console.log(arrayOfnumbers)
       return arrayOfnumbers;
-    };
+    };*/
     return (
       <div
         style={{
