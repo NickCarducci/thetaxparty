@@ -163,6 +163,13 @@ class SaltBank extends React.Component {
               <br />
               tax max $60/transaction
             </div>
+            <span>
+              profit, <a href="https://scopebook.quora.com">labor</a>, and cost
+              to revenue betwinst qtrs
+              <br />
+              capital profiteer/labor, contractor/
+              <a href="https://froth.app">durable</a>
+            </span>
           </div>
         </div>
         <div
