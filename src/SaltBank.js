@@ -170,10 +170,10 @@ class SaltBank extends React.Component {
               capital profiteer/labor, contractor/
               <a href="https://froth.app">durable</a>
             </span>
-            <a href="https://commie.dev">capital</a> slave is cost to revenue in
-            house
-            <br />
             <span>
+              <a href="https://commie.dev">capital</a> slave is cost to revenue
+              in house
+              <br />
               government is the{" "}
               <a href="https://generalmaintenanceunit.quora.com">goose</a> on
               vaxx <a href="https://humanharvest.info">permit</a>
