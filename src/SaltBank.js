@@ -138,6 +138,8 @@ class SaltBank extends React.Component {
           </a>
           <div
             style={{
+              position: "relative",
+              top: "60px",
               display: "flex",
               flexDirection: "column",
               alignItems: "center"
@@ -155,22 +157,37 @@ class SaltBank extends React.Component {
                 minWidth: "170px",
                 color: "white",
                 backgroundColor: "rgba(20,20,20,.6)",
-                fontSize: "14px",
-                padding: "6px"
+                fontSize: "10px",
+                padding: "3px",
+                margin: "3px"
               }}
             >
-              After $15k/customer/yr 'gifts' of discount
-              <br />
+              After $15k/customer/yr 'gifts' of discount{" "}
+              <a style={{ color: "white" }} href="https://saverparty.xyz">
+                (Save the Rats)
+              </a>{" "}
               tax max $60/transaction
             </div>
-            <span>
-              profit, <a href="https://scopebook.quora.com">labor</a>, and cost
-              to revenue betwinst qtrs
+            <span style={{ fontSize: "13px", backgroundColor: "lightsalmon" }}>
+              Education and medical{" "}
+              <a href="https://truncatedwholesaletax.com">
+                institutional gifts
+              </a>{" "}
+              are
               <br />
-              capital profiteer/labor, contractor/
+              corporate tax free<i>… sounds weird.</i>
+            </span>
+            <span style={{ fontSize: "12px", backgroundColor: "lightskyblue" }}>
+              <b>
+                profit, <a href="https://scopebook.quora.com">labor</a>, and
+                cost to revenue
+              </b>{" "}
+              betwinst qtrs
+              <br />
+              capital: profiteer/labor, contractor/
               <a href="https://froth.app">durable</a>
             </span>
-            <span>
+            <span style={{ fontSize: "11px", backgroundColor: "linen" }}>
               <a href="https://commie.dev">capital</a> slave is cost to revenue
               in house
               <br />
