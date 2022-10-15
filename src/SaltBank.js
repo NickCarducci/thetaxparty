@@ -187,13 +187,63 @@ class SaltBank extends React.Component {
               capital: profiteer/labor, contractor/
               <a href="https://froth.app">durable</a>
             </span>
-            <span style={{ fontSize: "11px", backgroundColor: "linen" }}>
+            <span style={{ fontSize: "11px", backgroundColor: "chocolate" }}>
               <a href="https://commie.dev">capital</a> slave is cost to revenue
               in house
               <br />
               government is the{" "}
               <a href="https://generalmaintenanceunit.quora.com">goose</a> on
               vaxx <a href="https://humanharvest.info">permit</a>
+            </span>
+            <span
+              style={{
+                transition: ".3s ease-out",
+                fontSize: "11px",
+                backgroundColor: "linen",
+                maxWidth: "300px"
+              }}
+            >
+              Save the rats
+              <br />
+              <i style={{ color: "grey" }}>
+                What are some well-reasoned critiques of Anarchism?
+              </i>
+              <br />
+              <span
+                style={{ cursor: "pointer" }}
+                onMouseEnter={
+                  () =>
+                    this.setState({ designUItimeout: true }, () => {
+                      clearTimeout(this.designUItimeout);
+                      this.designUItimeout = setTimeout(() => {
+                        this.setState({ designUItimeout: false });
+                      }, 5000);
+                    }) //scopebook
+                }
+              >
+                Pinky-and-the-brain vibes
+              </span>
+              <br />
+              <span
+                style={{
+                  color: "chocolate"
+                }}
+              >
+                {this.state.designUItimeout &&
+                  `(1) social as in burning of a field rather than building the new world
+              within the shell of the old, (2) one last push by the working
+              class to seize the means of production. An approach far astray
+              from models of recruitment, education, progress, or the crossed
+              fingers that the next riot will be the Big one.`}
+              </span>
+            </span>
+            <span
+              style={{ fontSize: "11px", backgroundColor: "lightseagreen" }}
+            >
+              I could eat a{" "}
+              <a href="https://anchor.fm/micro-theory/episodes/Subcontracting-marginal-profits-e1l2ime">
+                horse
+              </a>
             </span>
           </div>
         </div>
@@ -211,3 +261,4 @@ class SaltBank extends React.Component {
 }
 
 export default SaltBank;
+
