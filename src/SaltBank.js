@@ -145,6 +145,14 @@ class SaltBank extends React.Component {
               alignItems: "center"
             }}
           >
+            <span>
+              rich salt liberalist:{" "}
+              <i>
+                democracy
+                <br />
+                spoofs accounting geohash
+              </i>
+            </span>
             <h1 {...setting(0)}>
               TTP <span style={{ fontSize: "15px" }}></span>
             </h1>
@@ -222,6 +230,7 @@ class SaltBank extends React.Component {
                 }
               >
                 Pinky-and-the-brain vibes
+                {/**"anything he can to make it someone else's problem" */}
               </span>
               <br />
               <span
@@ -261,4 +270,3 @@ class SaltBank extends React.Component {
 }
 
 export default SaltBank;
-
