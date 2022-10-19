@@ -111,6 +111,12 @@ class SaltBank extends React.Component {
             }}
           >
             <span>
+              the objective right to own
+              <br />
+              borrowed made-loan derivative
+              <br />
+              <i>treasury share debenture max royalty</i>
+              <br />
               rich salt liberalist:{" "}
               <i>
                 democracy
