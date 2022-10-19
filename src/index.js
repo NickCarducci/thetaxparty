@@ -17,7 +17,7 @@ class PathRouter extends React.Component {
     this.state = {
       browser: name
     };
-    //this.bf = React.createRef();
+    //this.bf = React.createRef();"mm" that's my line!
     this.matchMedia = null;
     this.deferredPrompt = null;
   }
@@ -36,6 +36,7 @@ class PathRouter extends React.Component {
         window.addEventListener("scroll", this.scroll);
       }
     );
+    this.scroll();
   };
   componentWillUnmount = () => {
     clearInterval(check);
@@ -72,7 +73,7 @@ class PathRouter extends React.Component {
           () =>
             this.setState({
               scrollTop: window.scrollY,
-              onscroll:
+              scrolling:
                 window.document.body.scrollHeight -
                   window.document.body.clientHeight >
                 50
@@ -177,11 +178,11 @@ class PathRouter extends React.Component {
                       props //delete for deploy
                     ) => (
                       <SaltBank
-                        onscroll={this.state.onscroll}
                         lastPath={this.state.lastPathname}
                         pathname={this.state.pathname}
                         history={this.state.history}
                         scrollTop={this.state.scrollTop}
+                        scrolling={this.state.scrolling}
                       />
                     )}
                   />
