@@ -1,5 +1,5 @@
 import React from "react";
-//import Cable from "./Dropwire.js"; //"react-dropwire";
+import Cable from "./Dropwire.js"; //"react-dropwire";
 
 class SaltBank extends React.Component {
   constructor(props) {
@@ -25,28 +25,15 @@ class SaltBank extends React.Component {
         onMouseLeave: () => this.setState({ ["hoverin" + n]: false })
       };
     };
-    /*const setting2 = (n, more) => {
-      return {
-        style: {
-          color: this.state["hoverin" + n]
-            ? "rgb(80,100,120)"
-            : "rgb(50,70,90)",
-          cursor: "pointer",
-          ...more
-        },
-        onMouseEnter: () => this.setState({ ["hoverin" + n]: true }),
-        onMouseLeave: () => this.setState({ ["hoverin" + n]: false })
-      };
-    };*/
     //https://www.quora.com/What-is-the-cause-of-inequality-in-competitive-markets/answer/Nick-Carducci
     //reverse amortization
-    /*let arrayOfnumbers = 0;
-  const scrollnum = () => {
+    let arrayOfnumbers = 0;
+    const scrollnum = () => {
       arrayOfnumbers = arrayOfnumbers + 1; //arrayOfnumbers[arrayOfnumbers.length - 1] + 1;
       //arrayOfnumbers.push(num);
       //console.log(arrayOfnumbers)
       return arrayOfnumbers;
-    };*/
+    };
     return (
       <div
         style={{
@@ -94,28 +81,6 @@ class SaltBank extends React.Component {
           >
             Saltbank.org
           </a>
-          {/*<Cable
-            {...setting(8, {
-              color: "black",
-              textDecoration: "none",
-              position: "fixed",
-              left: "30px",
-              bottom: "40px",
-              maxWidth: "calc(100% - 50px)",
-              width: "560px",
-              height: "315px"
-            })}
-            float={null}
-            src="https://www.youtube.com/embed/D43NASit-J0"
-            title="https://www.youtube.com/watch?v=D43NASit-J0"
-            //frameborder="0"
-            //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            //allowfullscreen
-            scrolling={this.props.onscroll}
-            fwd={this["scrollImg" + scrollnum()]}
-            scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-            scrollTop={this.props.scrollTop}
-          />*/}
           <a
             {...setting(8, {
               textDecoration: "none",
@@ -254,6 +219,20 @@ class SaltBank extends React.Component {
                 horse
               </a>
             </span>
+            <br />
+            <Cable
+              style={{ height: "400px" }}
+              float={null}
+              src="https://vaults.biz/gdp"
+              title="https://vaults.biz/gdp"
+              //frameborder="0"
+              //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              //allowfullscreen
+              scrolling={this.props.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+              scrollTop={this.props.scrollTop}
+            />
           </div>
         </div>
         <div
