@@ -239,6 +239,20 @@ class SaltBank extends React.Component {
               scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
               scrollTop={this.props.scrollTop}
             />
+            <i>To make a future civic tech non profit, tax exempt</i>
+            <br />
+            dissolve one non profit before making another quasi-purposeful
+            business income
+            <br />
+            with corporate bylaws toward an individual's pay.
+            <br />
+            Then, all income from another non profit to a personal non profit
+            <br />
+            consortium is tax free. Use platform processed merchants as business
+            account.
+            <br />
+            Cash charges above $11k and Stripe charges .8% with Standard connect
+            accounts.
           </div>
         </div>
         <div
