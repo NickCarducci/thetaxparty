@@ -253,6 +253,9 @@ class SaltBank extends React.Component {
             <br />
             Cash charges above $11k and Stripe charges .8% with Standard connect
             accounts.
+            <br />
+            <br />I actualy don't think sunk costs ARE a fallacy. opportunity
+            costs are
           </div>
         </div>
         <div
