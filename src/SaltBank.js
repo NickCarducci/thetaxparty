@@ -34,6 +34,7 @@ class SaltBank extends React.Component {
       //console.log(arrayOfnumbers)
       return arrayOfnumbers;
     };
+    const space = " ";
     return (
       <div
         style={{
@@ -111,6 +112,10 @@ class SaltBank extends React.Component {
             }}
           >
             <span>
+              tax to{space}
+              <a href="https://humanharvest.info">prevent</a>
+              {space}loss
+              <br />
               the objective right to own
               <br />
               borrowed made-loan derivative
@@ -272,3 +277,4 @@ class SaltBank extends React.Component {
 }
 
 export default SaltBank;
+
