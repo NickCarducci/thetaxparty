@@ -112,6 +112,8 @@ class SaltBank extends React.Component {
             }}
           >
             <span>
+              (reconciliation default)
+              <br />
               tax to{space}
               <a href="https://humanharvest.info">prevent</a>
               {space}loss
@@ -277,4 +279,3 @@ class SaltBank extends React.Component {
 }
 
 export default SaltBank;
-
