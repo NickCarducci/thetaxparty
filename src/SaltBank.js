@@ -104,15 +104,17 @@ class SaltBank extends React.Component {
           </a>
           <div
             style={{
-              position: "relative",
-              top: "60px",
-              display: "flex",
+              position: "relative", //more than anything, devast
+              top: "60px", //uninvest vau.money
+              display: "flex", //prevent secure loss not or expiry, not good will nor price to inelastic, marginal labor
               flexDirection: "column",
               alignItems: "center"
             }}
           >
             <span>
-              (reconciliation default)
+              (reconciliation default): uninvest vau.money prevent, secure loss
+              not or expiry, not good will nor price to inelastic, marginal
+              labor
               <br />
               tax to{space}
               <a href="https://humanharvest.info">prevent</a>
