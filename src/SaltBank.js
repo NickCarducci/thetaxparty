@@ -107,11 +107,15 @@ class SaltBank extends React.Component {
               position: "relative", //more than anything, devast
               top: "60px", //uninvest vau.money
               display: "flex", //prevent secure loss not or expiry, not good will nor price to inelastic, marginal labor
-              flexDirection: "column",
+              flexDirection: "column", //police can be normal, regular
               alignItems: "center"
             }}
           >
             <span>
+              maybe poor red states will fight me on geohash tax. You should
+              choose your local public services.
+              <br />
+              <br />
               (reconciliation default): uninvest vau.money prevent, secure loss
               not or expiry, not good will nor price to inelastic, marginal
               labor
