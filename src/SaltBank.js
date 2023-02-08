@@ -57,32 +57,36 @@ class SaltBank extends React.Component {
             marginTop: "30px"
           }}
         >
-          <a
-            href="https://igg.me/at/occupywallstreet"
+          <i
             {...setting(8, {
-              color: "black",
               textDecoration: "none",
               position: "fixed",
-              left: "30px",
-              top: "40px"
+              left: "7px",
+              top: "10px"
             })}
           >
-            igg.me/at/occupywallstreet
-          </a>
+            <a href="https://igg.me/at/occupywallstreet">
+              igg.me/at/occupywallstreet
+            </a>
+            <br />
+            taxsecurityfirst.com
+            <br />
+            micro-theory.com
+          </i>
 
-          <a
+          <i
             {...setting(8, {
-              color: "black",
               textDecoration: "none",
               position: "fixed",
-              left: "30px",
-              bottom: "40px"
+              left: "7px",
+              bottom: "10px"
             })}
-            href="https://saltbank.org"
           >
-            Saltbank.org
-          </a>
-          <a
+            <a href="https://saltbank.org">Saltbank.org</a>
+            <br />
+            multilevelcapital.com
+          </i>
+          <i
             {...setting(8, {
               textDecoration: "none",
               position: "fixed",
@@ -101,7 +105,11 @@ class SaltBank extends React.Component {
                 🐿
               </span>
             </a>
-          </a>
+            <br />
+            ballotpedia.com/nick_carducci
+            <br />
+            vau.money
+          </i>
           <div
             style={{
               position: "relative", //more than anything, devast
@@ -111,164 +119,202 @@ class SaltBank extends React.Component {
               alignItems: "center"
             }}
           >
-            <span>
-              maybe poor red states will fight me on geohash tax. You should
-              choose your local public services.
-              <br />
-              <br />
-              (reconciliation default): uninvest vau.money prevent, secure loss
-              not or expiry, not good will nor price to inelastic, marginal
-              labor
-              <br />
-              tax to{space}
-              <a href="https://humanharvest.info">prevent</a>
-              {space}loss
-              <br />
-              the objective right to own
-              <br />
-              borrowed made-loan derivative
-              <br />
-              <i>treasury share debenture max royalty</i>
-              <br />
-              rich salt liberalist:{" "}
-              <i>
-                democracy
-                <br />
-                spoofs accounting geohash
-              </i>
-            </span>
-            <h1 {...setting(0)}>
-              TTP <span style={{ fontSize: "15px" }}></span>
-            </h1>
-            <a href="https://truncatedwholesaletax.com">
-              <h4 {...setting(1)}>the tax party</h4>
-            </a>
-            <div
-              style={{
-                width: "min-content",
-                minWidth: "170px",
-                color: "white",
-                backgroundColor: "rgba(20,20,20,.6)",
-                fontSize: "10px",
-                padding: "3px",
-                margin: "3px"
-              }}
-            >
-              After $15k/customer/yr 'gifts' of discount{" "}
-              <a style={{ color: "white" }} href="https://saverparty.xyz">
-                (Save the Rats)
-              </a>{" "}
-              tax max $60/transaction
-            </div>
-            <span style={{ fontSize: "13px", backgroundColor: "lightsalmon" }}>
-              Education and medical{" "}
-              <a href="https://truncatedwholesaletax.com">
-                institutional gifts
-              </a>{" "}
-              are
-              <br />
-              corporate tax free<i>… sounds weird.</i>
-            </span>
-            <span style={{ fontSize: "12px", backgroundColor: "lightskyblue" }}>
-              <b>
-                profit, <a href="https://scopebook.quora.com">labor</a>, and
-                cost to revenue
-              </b>{" "}
-              betwinst qtrs
-              <br />
-              capital: profiteer/labor, contractor/
-              <a href="https://froth.app">durable</a>
-            </span>
-            <span style={{ fontSize: "11px", backgroundColor: "chocolate" }}>
-              <a href="https://commie.dev">capital</a> slave is cost to revenue
-              in house
-              <br />
-              government is the{" "}
-              <a href="https://generalmaintenanceunit.quora.com">goose</a> on
-              vaxx <a href="https://humanharvest.info">permit</a>
-            </span>
-            <span
-              style={{
-                transition: ".3s ease-out",
-                fontSize: "11px",
-                backgroundColor: "linen",
-                maxWidth: "300px"
-              }}
-            >
-              Save the rats
-              <br />
-              <i style={{ color: "grey" }}>
-                What are some well-reasoned critiques of Anarchism?
-              </i>
-              <br />
-              <span
-                style={{ cursor: "pointer" }}
-                onMouseEnter={
-                  () =>
-                    this.setState({ designUItimeout: true }, () => {
-                      clearTimeout(this.designUItimeout);
-                      this.designUItimeout = setTimeout(() => {
-                        this.setState({ designUItimeout: false });
-                      }, 5000);
-                    }) //scopebook
-                }
-              >
-                Pinky-and-the-brain vibes
-                {/**"anything he can to make it someone else's problem" */}
-              </span>
-              <br />
+            <h3>
+              literally I wouldn't put medics above{space}
               <span
                 style={{
-                  color: "chocolate"
+                  cursor: "pointer",
+                  textDecoration: "underline"
+                }}
+                onClick={() =>
+                  this.setState({ openCivilians: !this.state.openCivilians })
+                }
+              >
+                civilians
+              </span>
+            </h3>
+            <div
+              style={{
+                transition: ".3s ease-in",
+                fontSize: this.state.openCivilians ? "" : "0px"
+              }}
+            >
+              <span>
+                maybe poor red states will fight me on geohash tax. You should
+                choose your local public services.
+                <br />
+                <br />
+                (reconciliation default): uninvest vau.money prevent, secure
+                loss not or expiry, not good will nor price to inelastic,
+                marginal labor
+                <br />
+                tax to{space}
+                <a href="https://humanharvest.info">prevent</a>
+                {space}loss
+                <br />
+                the objective right to own
+                <br />
+                borrowed made-loan derivative
+                <br />
+                <i>treasury share debenture max royalty</i>
+                <br />
+                rich salt liberalist:{" "}
+                <i>
+                  democracy
+                  <br />
+                  spoofs accounting geohash
+                </i>
+              </span>
+              <h1 {...setting(0)}>
+                TTP <span style={{ fontSize: "15px" }}></span>
+              </h1>
+              <a href="https://truncatedwholesaletax.com">
+                <h4 {...setting(1)}>the tax party</h4>
+              </a>
+              <div
+                style={{
+                  width: "min-content",
+                  minWidth: "170px",
+                  color: "white",
+                  backgroundColor: "rgba(20,20,20,.6)",
+                  fontSize: this.state.openCivilians ? "10px" : "0px",
+                  padding: this.state.openCivilians && "3px",
+                  margin: "3px"
                 }}
               >
-                {this.state.designUItimeout &&
-                  `(1) social as in burning of a field rather than building the new world
+                After $15k/customer/yr 'gifts' of discount{" "}
+                <a style={{ color: "white" }} href="https://saverparty.xyz">
+                  (Save the Rats)
+                </a>{" "}
+                tax max $60/transaction
+              </div>
+              <span
+                style={{
+                  fontSize: this.state.openCivilians ? "13px" : "0px",
+                  backgroundColor: "lightsalmon"
+                }}
+              >
+                Education and medical{" "}
+                <a href="https://vau.money/login">institutional gifts</a> are
+                <br />
+                corporate tax free<i>… sounds weird.</i>
+              </span>
+              <span
+                style={{
+                  fontSize: this.state.openCivilians ? "12px" : "0px",
+                  backgroundColor: "lightskyblue"
+                }}
+              >
+                <b>
+                  profit, <a href="https://scopebook.quora.com">labor</a>, and
+                  cost to revenue
+                </b>{" "}
+                betwinst qtrs
+                <br />
+                capital: profiteer/labor, contractor/
+                <a href="https://froth.app">durable</a>
+              </span>
+              <span
+                style={{
+                  fontSize: this.state.openCivilians ? "11px" : "0px",
+                  backgroundColor: "chocolate"
+                }}
+              >
+                <a href="https://commie.dev">capital</a> slave is cost to
+                revenue in house
+                <br />
+                government is the{" "}
+                <a href="https://generalmaintenanceunit.quora.com">goose</a> on
+                vaxx <a href="https://humanharvest.info">permit</a>
+              </span>
+              <span
+                style={{
+                  transition: ".3s ease-out",
+                  fontSize: this.state.openCivilians ? "11px" : "0px",
+                  backgroundColor: "linen",
+                  maxWidth: "300px"
+                }}
+              >
+                Save the rats
+                <br />
+                <i style={{ color: "grey" }}>
+                  What are some well-reasoned critiques of Anarchism?
+                </i>
+                <br />
+                <span
+                  style={{ cursor: "pointer" }}
+                  onMouseEnter={
+                    () =>
+                      this.setState({ designUItimeout: true }, () => {
+                        clearTimeout(this.designUItimeout);
+                        this.designUItimeout = setTimeout(() => {
+                          this.setState({ designUItimeout: false });
+                        }, 5000);
+                      }) //scopebook
+                  }
+                >
+                  Pinky-and-the-brain vibes
+                  {/**"anything he can to make it someone else's problem" */}
+                </span>
+                <br />
+                <span
+                  style={{
+                    color: "chocolate"
+                  }}
+                >
+                  {this.state.designUItimeout &&
+                    `(1) social as in burning of a field rather than building the new world
               within the shell of the old, (2) one last push by the working
               class to seize the means of production. An approach far astray
               from models of recruitment, education, progress, or the crossed
               fingers that the next riot will be the Big one.`}
+                </span>
               </span>
-            </span>
-            <span
-              style={{ fontSize: "11px", backgroundColor: "lightseagreen" }}
-            >
-              I could eat a{" "}
-              <a href="https://anchor.fm/micro-theory/episodes/Subcontracting-marginal-profits-e1l2ime">
-                horse
-              </a>
-            </span>
-            <br />
-            <Cable
-              style={{ height: "400px" }}
-              float={null}
-              src="https://vaults.biz/gdp"
-              title="https://vaults.biz/gdp"
-              //frameborder="0"
-              //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              //allowfullscreen
-              scrolling={this.props.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
-              scrollTop={this.props.scrollTop}
-            />
-            <i>To make a future civic tech non profit, tax exempt</i>
-            <br />
-            dissolve one non profit before making another quasi-purposeful
-            business income
-            <br />
-            with corporate bylaws toward an individual's pay.
-            <br />
-            Then, all income from another non profit to a personal non profit
-            <br />
-            consortium is tax free. Use platform processed merchants as business
-            account.
-            <br />
-            Cash charges above $11k and Stripe charges .8% with Standard connect
-            accounts.
-            <br />
-            <br />I actualy don't think sunk costs ARE a fallacy. opportunity
-            costs are
+              <span
+                style={{
+                  fontSize: this.state.openCivilians ? "11px" : "0px",
+                  backgroundColor: "lightseagreen"
+                }}
+              >
+                I could eat a{" "}
+                <a href="https://anchor.fm/micro-theory/episodes/Subcontracting-marginal-profits-e1l2ime">
+                  horse
+                </a>
+              </span>
+              <br />
+              {this.state.openCivilians && (
+                <Cable
+                  style={{ height: "400px" }}
+                  float={null}
+                  src="https://vaults.biz/gdp"
+                  title="https://vaults.biz/gdp"
+                  //frameborder="0"
+                  //allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  //allowfullscreen
+                  scrolling={this.props.scrolling}
+                  fwd={this["scrollImg" + scrollnum()]}
+                  scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
+                  scrollTop={this.props.scrollTop}
+                />
+              )}
+              <i>To make a future civic tech non profit, tax exempt</i>
+              <br />
+              dissolve one non profit before making another quasi-purposeful
+              business income
+              <br />
+              with corporate bylaws toward an individual's pay.
+              <br />
+              Then, all income from another non profit to a personal non profit
+              <br />
+              consortium is tax free. Use platform processed merchants as
+              business account.
+              <br />
+              Cash charges above $11k and Stripe charges .8% with Standard
+              connect accounts.
+              <br />
+              <br />I actualy don't think sunk costs ARE a fallacy. opportunity
+              costs are
+            </div>
           </div>
         </div>
         <div
