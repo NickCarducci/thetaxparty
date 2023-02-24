@@ -148,14 +148,28 @@ class SaltBank extends React.Component {
                 plaintiff usufruct PRECEDENCE, like we are all bees working on
                 the corpus hive for material benefit liquidity and capital goods
                 deflation. Medics for all… or none. (
-                <i>Is public service loan forgiveness fair?</i>) This is our
-                constitutional liberated uniform and tranquil unitary demand[.]
+                <i style={{ color: "dodgerblue" }}>
+                  Is public service loan forgiveness fair?
+                </i>
+                ) This is our constitutional liberated uniform and tranquil
+                unitary demand[.]
               </i>
               <br />
               Taxes nor tax-falls are meant for profiteering or more than its
-              deflation, much less safe assets by convenience yield.
+              deflation, much less safe assets by convenience yield (
+              <i style={{ color: "indianred" }}>
+                Do you prefer temporally dispositioned supply or liquid unitary
+                demand?
+              </i>
+              ).
               <br />
-              Taxes are made for maintenance.
+              Taxes are made for{space}
+              <a href="https://scopes.cc">maintenance</a>
+              {space}(
+              <i style={{ color: "forestgreen" }}>
+                Does Upwork advance or protect escrow?
+              </i>
+              ).
             </div>
             <div style={{ width: "400px" }}>
               <h4>
@@ -179,13 +193,21 @@ class SaltBank extends React.Component {
               <br />
               <div style={{ width: "200px", float: "left", padding: "10px" }}>
                 Extractable means unitary in time and space. The only reason why
-                dynamic Giffen escrow is halal is because commercial legislation
-                nowadays concerns itself with warranty consumer fraud and its
-                respective labor overtime indemnity instead of its counterpart
-                and countervailing third party donee beneficiary surrendered
-                freedom in purchasing the right to own. That’s western law put
-                together, but full measure is also that (and first, simpler,
-                etc.) by Sunnah 26:181 and 17:35, at least.
+                dynamic{space}
+                <b>
+                  Giffen escrow is halal is because commercial legislation
+                  nowadays concerns itself with warranty consumer fraud and its
+                  respective labor overtime{space}
+                  <a href="https://thumbprint.us">indemnity</a>
+                </b>
+                {space}
+                <i>
+                  instead of its counterpart and countervailing third party
+                  donee beneficiary surrendered freedom in purchasing the right
+                  to own
+                </i>
+                . That’s western law put together, but full measure is also that
+                (and first, simpler, etc.) by Sunnah 26:181 and 17:35, at least.
                 <br />
                 <br />
                 There is not any means [of sustenance] whose reserves We do not
