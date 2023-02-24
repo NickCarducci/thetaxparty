@@ -119,7 +119,7 @@ class SaltBank extends React.Component {
               alignItems: "center"
             }}
           >
-            <h3>
+            <h3 style={{ display: "inline-block" }}>
               literally I wouldn't put medics above{space}
               <span
                 style={{
@@ -137,18 +137,102 @@ class SaltBank extends React.Component {
               peace plan
               <br />
               Save the (elderly) rats; join WIPO;
-              <br />
-              Why do we really need taxes? Taxes are the price we all pay for
-              plaintiff usufruct PRECEDENCE, like we are all bees working on the
-              corpus hive for material benefit liquidity and capital goods
-              deflation. Medics for all… or none. This is our constitutional
-              liberated uniform and tranquil unitary demand[.]
+            </h3>
+            <div style={{ width: "600px" }}>
+              <i>
+                Why do we really need taxes? Taxes are the price we all pay for
+                plaintiff usufruct PRECEDENCE, like we are all bees working on
+                the corpus hive for material benefit liquidity and capital goods
+                deflation. Medics for all… or none. (
+                <i>Is public service loan forgiveness fair?</i>) This is our
+                constitutional liberated uniform and tranquil unitary demand[.]
+              </i>
               <br />
               Taxes nor tax-falls are meant for profiteering or more than its
               deflation, much less safe assets by convenience yield.
               <br />
               Taxes are made for maintenance.
-            </h3>
+            </div>
+            <div style={{ width: "400px" }}>
+              <h4>
+                The financial benefactor is cardinal, never an absolute material
+                benefit, sheer marginal utility and only ordinal after the
+                liquid goods for capital deflates justly by some whatever lag.
+              </h4>
+              <h2>
+                <a href="https://saverparty.xyz/nato">Ability</a>
+                {space}for{space}
+                <a href="https://commie.dev">needs</a>
+              </h2>
+              <span>
+                Technology sunk capital liquid advances towards unavailable
+                outright market of primary or by customer if not advanced 1031
+                consumable or just MCC escrow from a payment intent payout haram
+                bank to haram bank{space}
+                <a href="https://multilevelcaital.com">t+</a>.
+              </span>
+              <br />
+              <br />
+              <div style={{ width: "200px", float: "left", padding: "10px" }}>
+                Extractable means unitary in time and space. The only reason why
+                dynamic Giffen escrow is halal is because commercial legislation
+                nowadays concerns itself with warranty consumer fraud and its
+                respective labor overtime indemnity instead of its counterpart
+                and countervailing third party donee beneficiary surrendered
+                freedom in purchasing the right to own. That’s western law put
+                together, but full measure is also that (and first, simpler,
+                etc.) by Sunnah 26:181 and 17:35, at least.
+                <br />
+                <br />
+                There is not any means [of sustenance] whose reserves We do not
+                hold, only bring it forth in precise measure. (15:21)
+              </div>
+              These words instruct me to deal in commodities, and expire work
+              appointments with a concurrentable stop loss. A lease and lien
+              therefore are haram, but this part is just how I lead my own life
+              and advise others to this Right path where after plausible use we
+              must sell outright:
+              <span style={{ fontSize: "12px" }}>
+                this way hotels and making use of multiple homes is justified
+                within seasonal leases (and limited to 5 cubicle floors, how my
+                grandfather made money, or townhomes) as specific to rent as
+                industry proprietor payday loans is to debt and
+                entrepreneurship. The third party donee beneficiary standing is
+                owned by a person that is the scribe in the first adage (2:282),
+                a recorder that which we hold each other to account to by,
+                through what else but a plaintiff payable tax. An immediate
+                contract does not make a (marginal utility value) benefactor
+                from interest nor invoice, principal, nor warranty, but rather a
+                static (material benefit value) utility mechanism. If there is
+                work to be done, let the stipulations abound spoils and with
+                consent of those who record and enforce the arrangements (2:282
+                == democracy). Usually (in these days, however), probate
+                repossesses any outstanding liability without a foreclosure and
+                debt-service fixed game.{space}
+                <i>
+                  I would like this point to be discussed amongst professional
+                  scholars, I am but a (concurrent vertical industry)
+                  bootstrapped enthusiast. Thanks for hearing me, and although I
+                  verily am building contract stewardship software like pipe.io
+                  at vau.money/login (and I endeavor to serve our ummah
+                  professionally), given half of this is my bona fide
+                  reflection/abrogation:
+                </i>
+                {space}Allah (swt) knows best.{space}
+                <i>
+                  Postscript: When coinage was used as money, I’m not sure there
+                  was much public land deeds…
+                </i>
+                {space}I hope this helps as it helped me, may Allah be{space}
+                <a href="https://marginalism.uk">pleased</a>
+                {space}in balance.
+              </span>
+            </div>
+            <h1>
+              Coinage was metal when public lands were nigh and before that
+              nonsale barrels of{space}
+              <a href="https://humanharvest.info">human-feed</a>
+            </h1>
             <div
               style={{
                 transition: ".3s ease-in",
