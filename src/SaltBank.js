@@ -84,7 +84,7 @@ class SaltBank extends React.Component {
           >
             <a href="https://saltbank.org">Saltbank.org</a>
             <br />
-            multilevelcapital.com
+            2024nj.com/Carducci
           </i>
           <i
             {...setting(8, {
@@ -106,9 +106,9 @@ class SaltBank extends React.Component {
               </span>
             </a>
             <br />
-            ballotpedia.com/nick_carducci
+            ballotpedia.org/Nick_Carducci
             <br />
-            vau.money
+            vau.money/weed
           </i>
           <div
             style={{
@@ -134,9 +134,13 @@ class SaltBank extends React.Component {
               </span>
               <br />
               <br />
-              peace plan
+              peace{space}
+              <a href="https://saverparty.xyz/jesus">plan</a>
               <br />
-              Save the (elderly) rats; join WIPO;
+              <a href="https://www.quora.com/Do-Jews-believe-the-passage-Isaiah-53-7-including-for-the-transgression-of-my-people-was-he-stricken-predicts-dying-for-not-due-to-of-sin-or-did-Peter-ruin-the-Old-Testament-Do-Muslims-admit-Jesus-pbuh-committed/answer/Curtis-W-Scissons">
+                Save
+              </a>
+              {space}the (elderly) rats; join WIPO;
             </h3>
             <div style={{ width: "600px" }}>
               <i>
