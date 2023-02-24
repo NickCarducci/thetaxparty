@@ -132,6 +132,22 @@ class SaltBank extends React.Component {
               >
                 civilians
               </span>
+              <br />
+              <br />
+              peace plan
+              <br />
+              Save the (elderly) rats; join WIPO;
+              <br />
+              Why do we really need taxes? Taxes are the price we all pay for
+              plaintiff usufruct PRECEDENCE, like we are all bees working on the
+              corpus hive for material benefit liquidity and capital goods
+              deflation. Medics for all… or none. This is our constitutional
+              liberated uniform and tranquil unitary demand[.]
+              <br />
+              Taxes nor tax-falls are meant for profiteering or more than its
+              deflation, much less safe assets by convenience yield.
+              <br />
+              Taxes are made for maintenance.
             </h3>
             <div
               style={{
