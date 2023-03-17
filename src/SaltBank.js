@@ -135,23 +135,42 @@ class SaltBank extends React.Component {
             </span>
             <br />
             <br />
-            &bull;{space}Baths and cardiology not vaccines. Every debris =
-            {space}
-            <a href="https://epiology.quora.com">covalent</a>.
+            &bull;{space}
+            <span style={{ color: "royalblue" }}>
+              Baths and cardiology not vaccines. Every debris ={space}
+              <a
+                style={{ color: "royalblue" }}
+                href="https://epiology.quora.com"
+              >
+                covalent
+              </a>
+              .
+            </span>
             <br />
             &bull;{space}Recession then tax hikes and during its inflation part
             <br />
-            &bull;{space}Advance nonsale warranty (fraud), in voice work done (
-            <a href="https://saverparty.xyz">garnish-coded</a>), or final
-            goods...
+            &bull;{space}
+            <span style={{ color: "forestgreen" }}>
+              Advance nonsale warranty (fraud), in voice work done (
+              <a style={{ color: "forestgreen" }} href="https://saverparty.xyz">
+                garnish-coded
+              </a>
+              ), or final goods...
+            </span>
             <br />
             &bull;{space}Inflation, material benefit shrinkflation, or leisure
             to prefer complementary demand and substitutive supply fixed costs
             espoused by tendency.
             <br />
-            &bull;{space}Did banks fail this time because of subpar sales,
-            FedCash currency short of checkable deposits, or variable interest
-            rates?
+            &bull;{space}
+            <span
+              style={{
+                color: "firebrick"
+              }}
+            >
+              Did banks fail this time because of subpar sales, FedCash currency
+              short of checkable deposits, or variable interest rates?
+            </span>
             <br />
             <br />
             peace{space}
@@ -476,4 +495,3 @@ class SaltBank extends React.Component {
 }
 
 export default SaltBank;
-
