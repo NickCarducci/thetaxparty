@@ -113,6 +113,11 @@ class SaltBank extends React.Component {
             //alignItems: "center"
           }}
         >
+          <h4>
+            (Implied) Limited Family Testamentary Partnership for corporate
+            shareholders, codify government and student debt, and realtor-lien
+            only
+          </h4>
           I'll appropriate anything if you can tax for it! Socialists will tax
           progressively, progressives just won't tax.
           <h3 style={{ display: "inline-block" }}>
@@ -152,6 +157,7 @@ class SaltBank extends React.Component {
             peace{space}
             <a href="https://saverparty.xyz/jesus">plan</a>
             <br />
+            <b style={{ float: "right" }}>saverparty.xyz</b>
             <a href="https://www.quora.com/Do-Jews-believe-the-passage-Isaiah-53-7-including-for-the-transgression-of-my-people-was-he-stricken-predicts-dying-for-not-due-to-of-sin-or-did-Peter-ruin-the-Old-Testament-Do-Muslims-admit-Jesus-pbuh-committed/answer/Curtis-W-Scissons">
               Save
             </a>
