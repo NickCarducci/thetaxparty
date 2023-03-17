@@ -76,7 +76,7 @@ class SaltBank extends React.Component {
         >
           <a href="https://saltbank.org">Saltbank.org</a>
           <br />
-          2024nj.com/Carducci
+          nickcarducci.com (sign!)
         </i>
         <i
           {...setting(8, {
